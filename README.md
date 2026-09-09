@@ -7,7 +7,7 @@ A football (soccer) analysis skill for Claude and other agents that read the
 [Agent Skills](https://github.com/anthropics/skills) `SKILL.md` format.
 
 It makes the model read matches, clubs and transfers the way a good co-commentator would
-if he had also read the economics: **verdict first, one named mechanism, no hedging cloud** —
+if he had also read the economics: **verdict first, concrete mechanisms, uncertainty placed precisely** —
 and an explicit refusal to invent a tactical story for a result that was really a red card,
 a deflection, or one team simply being better.
 
@@ -17,9 +17,9 @@ a deflection, or one team simply being better.
 
 | Capability | What you get |
 |---|---|
-| **Match reading** | *One* specific decision that explains the result — a pressing trigger, a full-back's starting position, a substitution's timing — in plain language, with a mandatory honesty check that allows "nothing tactical happened here." |
+| **Match reading** | The dominant mechanism supported by match evidence — a pressing trigger, a full-back's starting position, a substitution's timing — in plain language, with a mandatory honesty check that allows "nothing tactical happened here." |
 | **Club analysis** | Vague fan questions ("what's going on at United?") get reframed into the actual decision underneath, then answered with a position and the one thing that would change it. |
-| **Financial–tactical synthesis** | Wage-bill reasoning brought in *only* when it bears on the decision, with strict scale discipline (money explains ~5–10% of one match, ~90% of a decade), plus an explicit flag when a "tactics problem" is really a budget problem. |
+| **Financial–tactical synthesis** | Wage-bill reasoning brought in *only* when it bears on the decision, with historical estimates checked against their league, era, and timescale, plus an explicit flag when a "tactics problem" is really a budget problem. |
 | **Fan-register honesty** | Blunt questions get blunt answers first. Verdict, then reasoning, then jargon — and only if the jargon earns its place. |
 
 ## Repository structure
@@ -27,12 +27,13 @@ a deflection, or one team simply being better.
 ```
 .
 ├── README.md
+├── AGENTS.md                     ← default analyst role and project guidance
 ├── LICENSE
 ├── NOTICE.md                     ← originality and source-attribution statement
 ├── CHANGELOG.md
 ├── .gitignore
 └── soccer-analyst/               ← the installable skill folder
-    ├── SKILL.md                  ← entry point (name, description, capabilities, rules)
+    ├── SKILL.md                  ← expert core + task-based loading triggers
     └── references/               ← loaded on demand, one file per source
         ├── reference-wilson-tactical-history.md
         ├── reference-cox-premier-league-eras.md
@@ -42,7 +43,7 @@ a deflection, or one team simply being better.
 ```
 
 `SKILL.md` is deliberately short. The five files in `references/` are loaded **on demand** —
-the routing table at the top of `SKILL.md` tells the agent which one to open for which job,
+the Loading depth table after the expert core tells the agent which depth each task needs,
 so a transfer question never drags in the tactical history and vice versa.
 
 ## Installation
@@ -113,7 +114,7 @@ A few decisions worth knowing if you want to fork it:
 - **No great-man history.** Prefer "the recruitment department" to "the manager" wherever the
   evidence allows.
 - **Progressive disclosure.** Files in `references/` carry the detail; `SKILL.md` carries the
-  routing.
+  reasoning voice and task triggers.
 
 ## Sources
 

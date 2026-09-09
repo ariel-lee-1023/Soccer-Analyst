@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- Rewrote the master as a first-person analyst, with evidence-led match reading, decision-focused club analysis, and task-triggered reference loading at the end.
+- Kept verdict-first clarity while making unsupported tactical stories, inferred boardroom motives, and universalized historical statistics explicit failure modes.
+- Added root AGENTS.md and updated the architecture description.
+
 - Moved `SKILL.md` and the five reference files into the `soccer-analyst/` skill folder,
   matching the layout documented in `README.md` and making the folder directly
   installable/zippable.
