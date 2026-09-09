@@ -204,9 +204,9 @@ What Bayern did instead was attack the three areas where Barcelona were adequate
 ---
 
 ## Decision Rules & Judgment
-- **Diagnose a national or club style from six sources, not one**: the national side, the dominant clubs, the star players' profiles, the coaches' philosophy, what happens to their players abroad and which imports succeed — plus **how referees officiate and what the crowd cheers**.
+- **Triangulate a national or club style.** Relevant evidence can include national and club teams, player profiles, coaching methods, migration, refereeing, and spectator expectations. Use the sources needed to test the claim; this is not a mandatory six-source checklist.
 - **Judge distances, not effort.** "Everything in football is a function of distance." Ask how far apart the banks of players are (Cruyff's working number: 10–15 metres) before you ask who ran more.
-- **Check whether the press is coached by looking at the line, not the lungs.** Trapping "is only possible when all the lines are pushed up and play close together." A high press with a deep line is not a press.
+- **Check the support behind a press.** Inspect gaps between lines and the opponent's available exits. A high first line with deeper support may leave exploitable space; assess the intended trap and observed outcomes before calling it uncoordinated.
 - **Separate a press's motive from its method.** Guardiola pressed to avoid defending; Klopp pressed to attack. The same action, and completely different expectations about what should happen in the next five seconds.
 - **Ask whether a team is vertically or horizontally compact.** Klopp's inside-tucking wide midfielders are the tell for a side that intends to box you in against the touchline.
 - **A medium block that stands off the centre-backs is a choice, not passivity.** A full-pitch press invites the long ball; standing off invites the opponent to play his way into trouble. Name which one you're watching.

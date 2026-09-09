@@ -161,19 +161,21 @@ Then everything downstream of that inch: Chelsea lost the Champions League (esti
 ---
 
 ## Decision Rules & Judgment
-- **Start from the wage bill, always.** Relative wages explain ~90% of league position over the long run. Establish what the money predicted, then explain only the residual. Anything else is a story about the residual pretending to be a story about the club.
+
+Apply these source-derived hypotheses at the scale their evidence supports. Historical percentages and averages belong to the book's sample and era; verify applicability before using them as a current baseline.
+- **For sustained club performance, establish a resource baseline.** The book reports a strong long-run wage relationship in its historical samples. Check league, period, accounting basis, and timescale before applying it; use match evidence for a match-level claim.
 - **Ask who decided before asking whether a signing was good.** Manager-led recruitment is the first named inefficiency: he spends without bearing risk and will likely be gone before the contract is.
-- **Never buy on a tournament.** Small sample, peak visibility, exhausted player. If you must, name the availability heuristic out loud and discount for it.
+- **Do not let a tournament carry a transfer decision by itself.** Test the small, highly visible sample against longer-run performance, role, fitness, wages, price, and alternatives. A tournament can add evidence without establishing the whole case.
 - **Buy unfashionable nationalities and thin markets; sell into fashion.** Costa Rican fees rose tenfold in a year on one run to a shoot-out.
 - **Concentrate the budget upward.** The second-best player's fee is the most decisive; the bottom five barely move results. And ask Anderson's question — "Who plays well with whom?" — rather than chasing a scarce superstar.
 - **Check whether a "loss" is amortization.** A reported loss with heavy amortization is frequently an accounting event, not a cash event. Ask which one the claim rests on before repeating it.
-- **Assume a club is maximising wins, not profits** — and judge its decisions by that objective. A Spanish club "should" finish twelfth places lower than it does if it cared about money.
-- **Discount the manager by default; require evidence to promote him.** At most ~10% of managers overachieve against their budget, and only over five-plus seasons is the evidence worth anything. Ask specifically: does he restrain transfer spending, and does he bring knowledge this league doesn't already have?
-- **Treat a sacking bounce as regression to the mean.** Clubs sack at 1.0 points per game against a 1.3 norm and are back at 1.3 within three months.
+- **Test the club's objective.** Win maximization is a useful source model; ownership constraints, cash needs, development goals, and profitability can change the decision. Do not infer motives from the model alone.
+- **Separate the manager's contribution from resources and noise.** The book's historical estimates motivate a demanding evidence standard, not a universal five-season waiting rule. Combine role-specific evidence, recruitment influence, and a defensible counterfactual.
+- **Test regression to the mean before crediting a sacking.** The source's 1.0-to-1.3 points-per-game pattern is a historical comparison. Check opposition, player availability, tactical changes, and an appropriate counterfactual before assigning a cause.
 - **Distinguish the two markets when you see discrimination.** Transparent markets (players) purge it; opaque markets (managers, executives, scouts) preserve it indefinitely — so voluntary codes won't work there.
 - **Knowledge gaps inside a league close fast.** An edge built on information (diet, scouting territory, analytics, set pieces) has a half-life. Ask how long this one has left.
 - **Look for the static situations.** A third of goals come from set pieces, and they are the one phase you can both predict and control. Direct free kicks are usually worse than a pass.
-- **Distrust your eyes on small samples** — three live matches is a scouting bias, not evidence. Prefer video volume and diversified crowd opinion.
+- **Limit conclusions from small scouting samples.** Three live matches can contribute evidence but rarely settle a transfer decision. Combine broader video, data, and independent observations while checking their relevance and quality.
 - **Before believing a country underperforms, price in home advantage, experience, income and population** — in that order of magnitude. Experience dominates; population barely matters.
 - **In tournament football, expect noise.** Two or three one-goal games over two years separate "legendary" from "failure." Say so instead of inventing a cause.
 - **Don't expect a World Cup to make anyone rich** — it may well make them happier, which is a different claim.

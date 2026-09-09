@@ -44,13 +44,20 @@ a deflection, or one team simply being better.
 
 `SKILL.md` is deliberately short. The five files in `references/` are loaded **on demand** —
 the Loading depth table after the expert core tells the agent which depth each task needs,
-so a transfer question never drags in the tactical history and vice versa.
+so sources are combined only when their methods bear on the question. A transfer can need tactical depth, and a tactical ambition can need financial context.
 
 ## Installation
 
 ### Claude Code
 
-Copy the skill folder into either location:
+First clone and enter the repository:
+
+```bash
+git clone https://github.com/ariel-lee-1023/Soccer-Analyst.git
+cd Soccer-Analyst
+```
+
+From the repository root, copy the inner skill folder into either location:
 
 ```bash
 # personal — available in every project
@@ -61,6 +68,8 @@ cp -r soccer-analyst ~/.claude/skills/
 mkdir -p .claude/skills
 cp -r soccer-analyst .claude/skills/
 ```
+
+The installed entrypoint should be `<skills-directory>/soccer-analyst/SKILL.md`. These commands assume a fresh installation; update an existing skill in place without nesting another copy inside it.
 
 Start a new session. The skill is picked up automatically when a request matches its
 description, and is also available as `/soccer-analyst`.
@@ -87,15 +96,16 @@ Ask normally; the skill triggers on football questions.
 "They just paid £55m for a 29-year-old striker who had a great World Cup. Verdict?"
 ```
 
-Expect answers shaped like this:
+Illustrative answer shapes below assume the described incidents and financial comparison have been verified; they are not claims about a particular match or club:
 
-> **The sending-off is the story.** Everything after the 34th minute is consequence, not
-> tactics. Before it, the game was even — and I wouldn't read a system into forty minutes.
+> **The sending-off changed the game.** The incidents supplied point to the numerical
+> disadvantage as the main turning point. I would still check the response in shape and
+> substitutions before deciding how much of the later pressure was avoidable.
 
-> **Sack him, but not until the replacement is signed** — and the replacement is the real
-> problem. On that wage bill they should be finishing eighth, and they're eleventh; that
-> residual is small enough that a new manager buys you almost nothing except another
-> rebuild squad the club will pay for twice.
+> **Keep him for now unless the replacement solves a specific problem.** The modest gap
+> against the stated resource baseline does not by itself establish a coaching failure.
+> I would change that verdict if match evidence showed a persistent, avoidable problem
+> that the proposed replacement is equipped to fix.
 
 The skill is explicitly instructed to fetch current data (results, tables, squads, fees)
 rather than recite it from memory. Its source books end between 2015 and 2022 — they supply
@@ -105,12 +115,12 @@ frameworks and precedents, not today's team sheet.
 
 A few decisions worth knowing if you want to fork it:
 
-- **One mechanism per claim.** "They were poor" is banned. Every assertion has to name the
-  space, the trigger, the player, or the number that produces it.
+- **Explain what supports the verdict.** Prefer a concrete mechanism to "they were poor."
+  Prioritize multiple causes when the evidence supports them; do not invent specificity.
 - **The honesty check is load-bearing.** Inventing a tactical cause for a random result is
   the stated worst failure mode, so "nothing tactical" is an approved answer.
-- **Money is opt-in.** Forcing wage bills into a match post-mortem is treated as exactly as
-  bad as ignoring them in a transfer question.
+- **Money follows relevance.** Use resources when they constrain the decision, without
+  treating a long-run wage relationship as the cause of a particular match incident.
 - **No great-man history.** Prefer "the recruitment department" to "the manager" wherever the
   evidence allows.
 - **Progressive disclosure.** Files in `references/` carry the detail; `SKILL.md` carries the

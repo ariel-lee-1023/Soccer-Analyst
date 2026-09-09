@@ -133,7 +133,7 @@ A mid-table Premier League club has just been relegated, is reported to be carry
 
 ## Decision Rules & Judgment
 - **Establish what the relative wage bill predicted before judging any decision.** Absolute spending is meaningless; the multiple of the league average is everything. Roughly: 4× to win, 2.5× for second, 1.5× for the top four, 1× for seventh, below 0.5× for relegation.
-- **Respect the scale of the claim.** Wages explain ~5–10% of a single match, **56% of season league position in the Premier League era**, and ~90% over the long run. Never use finance to explain one game.
+- **Respect the scale of the claim.** The book reports wage relationships of ~5–10% for a single match, 56% for season league position in its Premier League sample, and ~90% over the long run. These are source-era estimates, not portable constants. Resources may constrain lineup options in one game, but cannot establish the cause of a particular incident.
 - **Don't transplant the wage curve across eras or leagues without checking.** It explained only **13%** of variation in England in 1960–80, when the player market was closed. The curve is a property of an *efficient labour market*, not of football.
 - **Expect zero profit at every league position, and treat sustained profit as a signal.** In an open league, profit is competed away. A consistently profitable club is either exceptional (United), under-investing (Arsenal), or protected by something worth identifying.
 - **A mid-table position does not generate a profit.** There is no safe, cheap plateau in a modern top division — the clubs below spend nearly as much and relegation is one bad run away.

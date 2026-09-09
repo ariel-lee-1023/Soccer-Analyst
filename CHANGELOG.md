@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Consistency fixes (2026-09-09)
+
+- Clarified clone/copy installation, replaced rigid resource-first and tactical rules with evidence-scoped guidance, and reconciled README examples with the expert core. All content remains English.
+
 ### Changed
 
 - Rewrote the master as a first-person analyst, with evidence-led match reading, decision-focused club analysis, and task-triggered reference loading at the end.

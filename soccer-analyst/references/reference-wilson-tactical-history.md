@@ -205,12 +205,12 @@ Now Harry Johnston has a binary choice, both bad. Follow Hidegkuti into midfield
 - **When one team's innovation wins, expect the counter within one to two seasons** — and expect it from a weaker side that cannot afford to copy. Weakness is a design constraint that generates ideas (the *verrou*, the Volga Clip, Rehhagel's Greece).
 - **When a system produces a spare man somewhere, name where the shortfall is.** "By creating a spare man in one part of the pitch, it necessarily meant a shortfall elsewhere." If you can't name the shortfall, you haven't understood the shape.
 - **When you can't name the specific space a team is trying to create or deny, you do not yet have a tactical explanation** — say so.
-- **Judge a press by its trigger, its type and its motive, never by its intensity.** Apply the four reference points: which of ball / space / opponent / teammate is governing each player's movement? If your explanation is "they wanted it more," you have explained nothing.
+- **Judge a press by its coordination as well as intensity.** Examine trigger, type, motive, and which of ball / space / opponent / teammate governs movement. Effort alone does not explain whether the press worked.
 - **Before saying a team "stopped pressing," decide whether it switched to partial or fake pressing.** Both look like stopping and mean opposite things.
 - **Judge a system by what it does when it is losing 1–0 with twenty minutes left.** That reveals whether it is a philosophy or a veneer.
 - **Attribute a style to a lineage, not to a manager, when the academy is involved.** Barcelona had a thirty-year head start; Liverpool had a boot-room. Ask what will survive this manager's departure.
 - **Distinguish the innovator from the populariser.** Maslov pressed before Sacchi; Rappan bolted before Herrera. Being first rarely explains adoption; a European Cup does.
-- **Expect every innovation to be copied defence-first.** After Chapman, Herrera, Ramsey and Sacchi, the restrictive half of the idea spread fastest. When a new style appears, predict which half of it the league will actually take.
+- **Check which part of an innovation is copied.** The restrictive half spread fastest in several source examples; test whether that pattern holds in the league and period under discussion rather than predicting it for every innovation.
 - **A copied system without the training culture gets solved in one season** (the Revie Plan). Ask what changed in training, not in the team sheet.
 - **Don't confuse memorable with decisive.** Check whether the famous evidence for a team's greatness actually affected results (Brazil 1970's iconic moments largely did not).
 - **Treat a one-match tactical claim as a hypothesis, not a finding.** Wilson repeatedly shows explanations invented after the fact for outcomes driven by an injury, a sending-off, or a single error.
