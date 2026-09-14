@@ -3,8 +3,8 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Format: Agent Skill](https://img.shields.io/badge/format-SKILL.md-black.svg)
 
-A football (soccer) analysis skill for Claude and other agents that read the
-[Agent Skills](https://github.com/anthropics/skills) `SKILL.md` format.
+A football (soccer) analysis skill for any compatible agent that supports the
+`SKILL.md` format. See the [skill definition](soccer-analyst/SKILL.md).
 
 It makes the model read matches, clubs and transfers the way a good co-commentator would
 if he had also read the economics: **verdict first, concrete mechanisms, uncertainty placed precisely** —
@@ -59,8 +59,6 @@ so sources are combined only when their methods bear on the question. A transfer
 
 ## Installation
 
-### Claude Code
-
 First clone and enter the repository:
 
 ```bash
@@ -68,33 +66,27 @@ git clone https://github.com/ariel-lee-1023/Soccer-Analyst.git
 cd Soccer-Analyst
 ```
 
-From the repository root, copy the inner skill folder into either location:
+Copy the inner `soccer-analyst/` folder into your agent's documented skill directory.
+For agents that use `~/.agents/skills/` for personal skills:
 
 ```bash
-# personal — available in every project
-mkdir -p ~/.claude/skills
-cp -r soccer-analyst ~/.claude/skills/
-
-# or project-scoped — checked into the repo you're working in
-mkdir -p .claude/skills
-cp -r soccer-analyst .claude/skills/
+mkdir -p ~/.agents/skills
+cp -r soccer-analyst ~/.agents/skills/
 ```
 
-The installed entrypoint should be `<skills-directory>/soccer-analyst/SKILL.md`. These commands assume a fresh installation; update an existing skill in place without nesting another copy inside it.
+For project-local use, this repository already includes a `.agents/skills/soccer-analyst`
+link to the canonical skill folder. Agents that support that discovery path can load it
+when you open the repository. Otherwise, use your agent's documented project skill directory.
 
-Start a new session. The skill is picked up automatically when a request matches its
-description, and is also available as `/soccer-analyst`.
+The installed entrypoint should be `<skills-directory>/soccer-analyst/SKILL.md`. The copy
+command assumes a fresh installation; update an existing skill in place without nesting
+another copy inside it.
 
-### Claude.ai and the Claude API
+If your agent supports skill uploads, package the `soccer-analyst/` folder according to
+its documented archive requirements, keeping `SKILL.md` and `references/` together.
 
-Zip the `soccer-analyst/` folder (the zip must contain `SKILL.md` at the top level of that
-folder) and upload it as a custom skill. Current instructions:
-[claude.ai skills](https://support.claude.com) · [Skills on the API](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview).
-
-### Other agents
-
-The format is the open Agent Skills standard, so the same folder works anywhere `SKILL.md`
-files are supported — drop it in that tool's skills directory.
+Reload skills or start a new session as required by your agent. Automatic discovery and
+explicit invocation depend on the host; consult its skill-loading instructions.
 
 ## Usage
 
