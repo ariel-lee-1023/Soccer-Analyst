@@ -25,3 +25,8 @@ granted or implied by their citation here.
 ## Contributor
 
 Contributed by [@ariel-lee-1023](https://github.com/ariel-lee-1023).
+
+
+## Additional source attribution (2026-09-14)
+
+The five new reference files contain original analytical distillations of the user-supplied texts by Christopher Carling, A. Mark Williams and Thomas Reilly; Clive Beggs; Richard McElreath; Ian Graham; and Kieran Maguire. Editions, chapter locators and reconstructed examples are identified in each reference. The cross-book advising method and football adaptations of McElreath are this library's synthesis. Source books, figures, datasets and original program listings are not redistributed. The repository license covers its original contribution and does not grant rights to those third-party works.

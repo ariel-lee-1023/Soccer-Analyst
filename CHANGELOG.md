@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Evidence and decision methods (2026-09-14)
+
+- Added five study-depth references: Carling/Williams/Reilly, Beggs, McElreath (2016 first edition), Graham and Maguire (2021 second edition).
+- Strengthened repeatable match observation, quantitative analysis, uncertain player assessment, recruitment fit and transaction/account interpretation while keeping verdict-first prose.
+- Added task-based loading for all ten books and explicitly distinguished the library's integrated workflow from source-authored frameworks.
+- Preserved the existing installable folder and original five references; retained the relative project discovery symlink and added separate `fidelity-ledger/` records.
+- Recorded structural, scan and arithmetic validation, source limitations and an unrun independent behavioral evaluation; no measured quality gain is claimed.
+
 ### Consistency fixes (2026-09-09)
 
 - Clarified clone/copy installation, replaced rigid resource-first and tactical rules with evidence-scoped guidance, and reconciled README examples with the expert core. All content remains English.

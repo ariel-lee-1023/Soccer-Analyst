@@ -1,0 +1,42 @@
+{
+  "carling": {
+    "unique_lines": 131,
+    "repeated_lines": 0,
+    "input_tokens": 3698,
+    "unresolved": [],
+    "coverage_fraction": 0.034528202424881395,
+    "budget_alert": false
+  },
+  "beggs": {
+    "unique_lines": 827,
+    "repeated_lines": 0,
+    "input_tokens": 11226,
+    "unresolved": [],
+    "coverage_fraction": 0.045377229080932786,
+    "budget_alert": false
+  },
+  "graham": {
+    "unique_lines": 73,
+    "repeated_lines": 0,
+    "input_tokens": 5339,
+    "unresolved": [],
+    "coverage_fraction": 0.029060509554140128,
+    "budget_alert": false
+  },
+  "mcelreath": {
+    "unique_lines": 347,
+    "repeated_lines": 0,
+    "input_tokens": 13379,
+    "unresolved": [],
+    "coverage_fraction": 0.02654325709477549,
+    "budget_alert": false
+  },
+  "maguire": {
+    "unique_lines": 271,
+    "repeated_lines": 0,
+    "input_tokens": 9726,
+    "unresolved": [],
+    "coverage_fraction": 0.07234383342231714,
+    "budget_alert": false
+  }
+}

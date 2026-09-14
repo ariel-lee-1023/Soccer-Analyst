@@ -1,0 +1,67 @@
+{
+  "date": "2026-09-14",
+  "scope": "five-book fold-in; selective source inspection, not exhaustive reading",
+  "token_method": "bookrefs script-density estimate, not provider token usage",
+  "sources": [
+    {
+      "id": "carling",
+      "filename": "Handbook-of-Soccer-Match-Analysis-A-Systematic-Approach-to-Improving-Performance.md",
+      "sha256": "4e0220fd28339436e78ca3a478f193387970d7d280456882308ce5beb0cc85bd",
+      "format": "md",
+      "edition": "2005; e-library 2007",
+      "source_lines": 3794,
+      "estimated_source_tokens": 103539,
+      "detected_chapters": 3,
+      "verified_top_level_chapters": 9,
+      "page_estimate_not_physical_pagination": 230
+    },
+    {
+      "id": "beggs",
+      "filename": "Soccer-Analytics-An-Introduction-Using-R-Clive-Beggs.md",
+      "sha256": "b6a92f81af4ffd912d8b2f532a58e83a9d62219e23401ba0df488ff3f77725f5",
+      "format": "md",
+      "edition": "2024 first edition",
+      "source_lines": 18225,
+      "estimated_source_tokens": 226753,
+      "detected_chapters": 2,
+      "verified_top_level_chapters": 11,
+      "page_estimate_not_physical_pagination": 504
+    },
+    {
+      "id": "graham",
+      "filename": "How-to-Win-the-Premier-League-The-Sunday-Times-Bestselling-Inside-Story-of-Footb.md",
+      "sha256": "19922131ce184c8f943824f520c09d26e37fedba32b31b11f74c7cc93632aca4",
+      "format": "md",
+      "edition": "2024",
+      "source_lines": 2512,
+      "estimated_source_tokens": 151328,
+      "detected_chapters": 0,
+      "verified_top_level_chapters": 16,
+      "page_estimate_not_physical_pagination": 336
+    },
+    {
+      "id": "mcelreath",
+      "filename": "Statistical-rethinking-a-Bayesian-course-with-examples-in-R-and-Stan-Richard-McE.md",
+      "sha256": "beeab831833e1cedeea4a4627529a83709810f09cfe22736a43ece61a7fdc1a8",
+      "format": "md",
+      "edition": "2016 first edition",
+      "source_lines": 13073,
+      "estimated_source_tokens": 329984,
+      "detected_chapters": 17,
+      "verified_top_level_chapters": 15,
+      "page_estimate_not_physical_pagination": 733
+    },
+    {
+      "id": "maguire",
+      "filename": "The-Price-of-Football-Understanding-Football-Club-Finance-Second-Edition-Kieran-.md",
+      "sha256": "f288dee064439bb727f7c845683306c6c3b43186b19956f408de04cf154d58c0",
+      "format": "md",
+      "edition": "2021 second edition",
+      "source_lines": 3746,
+      "estimated_source_tokens": 130965,
+      "detected_chapters": 0,
+      "verified_top_level_chapters": 14,
+      "page_estimate_not_physical_pagination": 291
+    }
+  ]
+}

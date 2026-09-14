@@ -20,6 +20,10 @@ a deflection, or one team simply being better.
 | **Match reading** | The dominant mechanism supported by match evidence — a pressing trigger, a full-back's starting position, a substitution's timing — in plain language, with a mandatory honesty check that allows "nothing tactical happened here." |
 | **Club analysis** | Vague fan questions ("what's going on at United?") get reframed into the actual decision underneath, then answered with a position and the one thing that would change it. |
 | **Financial–tactical synthesis** | Wage-bill reasoning brought in *only* when it bears on the decision, with historical estimates checked against their league, era, and timescale, plus an explicit flag when a "tactics problem" is really a budget problem. |
+| **Evidence collection** | A repeatable observation plan: actions, players, locations, timestamps, comparable sequences, coding checks and a practical adjustment. |
+| **Quantitative analysis** | Data preparation, point-in-time features, xG, forecasting, rankings, passing networks and regression with inputs and assumptions stated. |
+| **Uncertainty and recruitment** | Breakout seasons assessed against minutes, prior evidence, role, opponents and alternative signings; model/scouting disagreement investigated. |
+| **Club accounts** | Transfer expense separated from cash instalments, wages, contingent commitments and current regulatory constraints. |
 | **Fan-register honesty** | Blunt questions get blunt answers first. Verdict, then reasoning, then jargon — and only if the jargon earns its place. |
 
 ## Repository structure
@@ -32,6 +36,8 @@ a deflection, or one team simply being better.
 ├── NOTICE.md                     ← originality and source-attribution statement
 ├── CHANGELOG.md
 ├── .gitignore
+├── .agents/skills/soccer-analyst -> ../../soccer-analyst
+├── fidelity-ledger/              ← source, coverage and validation records
 └── soccer-analyst/               ← the installable skill folder
     ├── SKILL.md                  ← expert core + task-based loading triggers
     └── references/               ← loaded on demand, one file per source
@@ -39,10 +45,15 @@ a deflection, or one team simply being better.
         ├── reference-cox-premier-league-eras.md
         ├── reference-cox-european-styles.md
         ├── reference-szymanski-money-and-soccer.md
-        └── reference-kuper-szymanski-soccernomics.md
+        ├── reference-kuper-szymanski-soccernomics.md
+        ├── reference-carling-match-analysis.md
+        ├── reference-beggs-soccer-analytics-r.md
+        ├── reference-mcelreath-statistical-rethinking.md
+        ├── reference-graham-football-decisions.md
+        └── reference-maguire-club-finance.md
 ```
 
-`SKILL.md` is deliberately short. The five files in `references/` are loaded **on demand** —
+`SKILL.md` is deliberately short. The ten files in `references/` are loaded **on demand** —
 the Loading depth table after the expert core tells the agent which depth each task needs,
 so sources are combined only when their methods bear on the question. A transfer can need tactical depth, and a tactical ambition can need financial context.
 
@@ -108,7 +119,7 @@ Illustrative answer shapes below assume the described incidents and financial co
 > that the proposed replacement is equipped to fix.
 
 The skill is explicitly instructed to fetch current data (results, tables, squads, fees)
-rather than recite it from memory. Its source books end between 2015 and 2022 — they supply
+rather than recite it from memory. Its sources range from the 2005 match-analysis handbook to 2024 analytics and recruitment books — they supply
 frameworks and precedents, not today's team sheet.
 
 ## Design notes
@@ -128,7 +139,7 @@ A few decisions worth knowing if you want to fork it:
 
 ## Sources
 
-The skill's frameworks are distilled from five books. The reference files are original
+The skill's frameworks are distilled from ten books. The reference files are original
 summaries and analytical notes — mental models, decision rules, terminology — not
 reproductions of the texts.
 
@@ -139,14 +150,27 @@ reproductions of the texts.
 | *Zonal Marking* | Michael Cox | Pressing triggers, positional play, national styles |
 | *Money and Soccer* | Stefan Szymanski | Wage–performance, what a club's finances permit |
 | *Soccernomics* | Simon Kuper & Stefan Szymanski | Transfer inefficiencies, manager effects, amortization |
+| *Handbook of Soccer Match Analysis* (2005; supplied e-library edition 2007) | Christopher Carling, A. Mark Williams & Thomas Reilly | Notation, reliability, contextual interpretation, feedback and training links |
+| *Soccer Analytics: An Introduction Using R* (2024) | Clive Beggs | Data preparation, PiT features, xG, forecasting, networks, rankings and regression |
+| *Statistical Rethinking*, first edition (2016) | Richard McElreath | Updating, uncertainty, model checking, partial pooling and missing data |
+| *How to Win the Premier League* (2024) | Ian Graham | Possession value, recruitment fit, transfer risks and organizational decisions |
+| *The Price of Football*, second edition (2021) | Kieran Maguire | Financial statements, player transactions, cash flow, ratios and valuation |
 
 If you want the arguments in full, buy the books. They are better than any summary of them.
 
 ## Scope and limitations
 
-These five books are the foundation, not the boundary of the sport. Coverage is thin on
-women's club football, most non-European leagues, and post-2022 developments — the skill is
+These ten books are the foundation, not the boundary of the sport. Coverage is thin on
+women's club football, most non-European leagues, and developments beyond the supplied editions — the skill is
 instructed to say so rather than extrapolate with false confidence.
+
+The 2026-09-14 expansion preserves the existing installable `soccer-analyst/` folder and all five older references. Its ten-source core remains verdict-first; a task loads only the methods it needs. The chain from observation through quantitative comparison, uncertainty, role fit and financial commitment is an original library synthesis, not attributed to any single author. The additions do not amount to a complete modern tactical coaching manual.
+
+## Validation and source fidelity
+
+The new references contain original method notes, prerequisites, limitations, chapter locators and one reconstructed example per book. Raw books and extraction files are not distributed. Maintainer evidence belongs in [fidelity-ledger/](fidelity-ledger/README.md), outside runtime references.
+
+Structural and instruction scans, arithmetic checks and preservation checks are recorded there. A frozen nine-case behavioral suite covers application, inapplicability, disagreement and unsupported requests, including final scenarios. **Independent baseline/core/full model evaluation has not been run:** no evaluation endpoint/model was configured. File validation and editorial review do not establish measured improvement in answer quality. R snippets were not executed in R; their stated arithmetic was checked independently in Python.
 
 ## Contributing
 

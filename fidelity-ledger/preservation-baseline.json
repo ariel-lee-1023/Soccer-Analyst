@@ -1,0 +1,12 @@
+{
+  "base_commit": "0ee081c77035729b2590980c97c4c1ad9aa741c1",
+  "uncommitted_file_preserved_and_excluded": "AGENTS.md",
+  "files": {
+    "AGENTS.md": "54063589a73b186aad8d0820a8b286283c22b4f61942fce89f4131290a8d432c",
+    "soccer-analyst/references/reference-cox-european-styles.md": "e2dd95bed8005408bd1577c8a8dbe6e8b1de32f5609699f6e852c2bf71205afc",
+    "soccer-analyst/references/reference-wilson-tactical-history.md": "ee22b3e77e80062aaec36b2ff6e31f7f376f2ecc0adb92d171c49b4317a0c0be",
+    "soccer-analyst/references/reference-kuper-szymanski-soccernomics.md": "c1129536fcfd4c8ff40d70d4310050df2c754b892009e21c9b9167469f785b29",
+    "soccer-analyst/references/reference-cox-premier-league-eras.md": "a75d6063c38724cc81e0eee7ef08c680cd0e0f0501a94b3fe09878f812dd74b4",
+    "soccer-analyst/references/reference-szymanski-money-and-soccer.md": "a5a46db83b4d358c6abbf0903d3b5d576b4f611cda74d246ddce0576edabfa78"
+  }
+}

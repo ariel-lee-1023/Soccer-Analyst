@@ -1,0 +1,616 @@
+{
+  "sources": {
+    "carling": {
+      "lines": 3794,
+      "output_budget": 10298
+    },
+    "beggs": {
+      "lines": 18225,
+      "output_budget": 10986
+    },
+    "graham": {
+      "lines": 2512,
+      "output_budget": 9300
+    },
+    "mcelreath": {
+      "lines": 13073,
+      "output_budget": 12196
+    },
+    "maguire": {
+      "lines": 3746,
+      "output_budget": 11911
+    }
+  },
+  "reads": [
+    {
+      "source": "carling",
+      "start": 1328,
+      "end": 1345,
+      "tokens": 593,
+      "reason": "audit-observer-training"
+    },
+    {
+      "source": "carling",
+      "start": 2783,
+      "end": 2806,
+      "tokens": 523,
+      "reason": "audit-goal-only-sampling"
+    },
+    {
+      "source": "carling",
+      "start": 2170,
+      "end": 2189,
+      "tokens": 1213,
+      "reason": "initial"
+    },
+    {
+      "source": "carling",
+      "start": 3552,
+      "end": 3577,
+      "tokens": 799,
+      "reason": "initial"
+    },
+    {
+      "source": "beggs",
+      "start": 5726,
+      "end": 5754,
+      "tokens": 361,
+      "reason": "initial"
+    },
+    {
+      "source": "beggs",
+      "start": 7562,
+      "end": 7620,
+      "tokens": 702,
+      "reason": "initial"
+    },
+    {
+      "source": "beggs",
+      "start": 7796,
+      "end": 7855,
+      "tokens": 917,
+      "reason": "initial"
+    },
+    {
+      "source": "beggs",
+      "start": 8620,
+      "end": 8690,
+      "tokens": 876,
+      "reason": "initial"
+    },
+    {
+      "source": "beggs",
+      "start": 8989,
+      "end": 9035,
+      "tokens": 567,
+      "reason": "initial"
+    },
+    {
+      "source": "beggs",
+      "start": 12210,
+      "end": 12295,
+      "tokens": 1138,
+      "reason": "initial"
+    },
+    {
+      "source": "beggs",
+      "start": 12691,
+      "end": 12715,
+      "tokens": 269,
+      "reason": "audit-network-limits"
+    },
+    {
+      "source": "beggs",
+      "start": 16093,
+      "end": 16142,
+      "tokens": 772,
+      "reason": "initial"
+    },
+    {
+      "source": "beggs",
+      "start": 16557,
+      "end": 16604,
+      "tokens": 703,
+      "reason": "audit-data-quality"
+    },
+    {
+      "source": "beggs",
+      "start": 17801,
+      "end": 17844,
+      "tokens": 764,
+      "reason": "initial"
+    },
+    {
+      "source": "mcelreath",
+      "start": 5318,
+      "end": 5346,
+      "tokens": 1690,
+      "reason": "initial"
+    },
+    {
+      "source": "mcelreath",
+      "start": 10060,
+      "end": 10120,
+      "tokens": 1548,
+      "reason": "initial"
+    },
+    {
+      "source": "mcelreath",
+      "start": 10648,
+      "end": 10675,
+      "tokens": 1402,
+      "reason": "initial"
+    },
+    {
+      "source": "mcelreath",
+      "start": 12325,
+      "end": 12359,
+      "tokens": 1230,
+      "reason": "initial"
+    },
+    {
+      "source": "mcelreath",
+      "start": 7048,
+      "end": 7076,
+      "tokens": 1885,
+      "reason": "audit-mcmc"
+    },
+    {
+      "source": "mcelreath",
+      "start": 4107,
+      "end": 4137,
+      "tokens": 426,
+      "reason": "audit-post-treatment"
+    },
+    {
+      "source": "maguire",
+      "start": 1270,
+      "end": 1338,
+      "tokens": 1941,
+      "reason": "initial"
+    },
+    {
+      "source": "maguire",
+      "start": 1412,
+      "end": 1445,
+      "tokens": 448,
+      "reason": "initial"
+    },
+    {
+      "source": "maguire",
+      "start": 1529,
+      "end": 1588,
+      "tokens": 2603,
+      "reason": "initial"
+    },
+    {
+      "source": "maguire",
+      "start": 1027,
+      "end": 1043,
+      "tokens": 508,
+      "reason": "initial"
+    },
+    {
+      "source": "maguire",
+      "start": 2470,
+      "end": 2510,
+      "tokens": 1430,
+      "reason": "initial"
+    },
+    {
+      "source": "beggs",
+      "start": 13021,
+      "end": 13063,
+      "tokens": 456,
+      "reason": "initial"
+    },
+    {
+      "source": "beggs",
+      "start": 13282,
+      "end": 13320,
+      "tokens": 418,
+      "reason": "initial"
+    },
+    {
+      "source": "beggs",
+      "start": 13453,
+      "end": 13507,
+      "tokens": 652,
+      "reason": "initial"
+    },
+    {
+      "source": "beggs",
+      "start": 11946,
+      "end": 11976,
+      "tokens": 519,
+      "reason": "initial"
+    },
+    {
+      "source": "mcelreath",
+      "start": 1571,
+      "end": 1595,
+      "tokens": 758,
+      "reason": "verification-predictive-sampling",
+      "question": "Verify source support or recover a bounded view after earlier output truncation: predictive-sampling",
+      "resolution": "Checked the displayed span against the retained method; see coverage-audit.md for outcome and limitations."
+    },
+    {
+      "source": "mcelreath",
+      "start": 4201,
+      "end": 4209,
+      "tokens": 373,
+      "reason": "verification-post-treatment",
+      "question": "Verify source support or recover a bounded view after earlier output truncation: post-treatment",
+      "resolution": "Checked the displayed span against the retained method; see coverage-audit.md for outcome and limitations."
+    },
+    {
+      "source": "mcelreath",
+      "start": 6174,
+      "end": 6190,
+      "tokens": 433,
+      "reason": "verification-interaction-symmetry",
+      "question": "Verify source support or recover a bounded view after earlier output truncation: interaction-symmetry",
+      "resolution": "Checked the displayed span against the retained method; see coverage-audit.md for outcome and limitations."
+    },
+    {
+      "source": "mcelreath",
+      "start": 9724,
+      "end": 9742,
+      "tokens": 1079,
+      "reason": "verification-zero-mixture",
+      "question": "Verify source support or recover a bounded view after earlier output truncation: zero-mixture",
+      "resolution": "Checked the displayed span against the retained method; see coverage-audit.md for outcome and limitations."
+    },
+    {
+      "source": "mcelreath",
+      "start": 11750,
+      "end": 11769,
+      "tokens": 516,
+      "reason": "verification-gaussian-process",
+      "question": "Verify source support or recover a bounded view after earlier output truncation: gaussian-process",
+      "resolution": "Checked the displayed span against the retained method; see coverage-audit.md for outcome and limitations."
+    },
+    {
+      "source": "mcelreath",
+      "start": 12611,
+      "end": 12627,
+      "tokens": 401,
+      "reason": "verification-conclusion",
+      "question": "Verify source support or recover a bounded view after earlier output truncation: conclusion",
+      "resolution": "Checked the displayed span against the retained method; see coverage-audit.md for outcome and limitations."
+    },
+    {
+      "source": "mcelreath",
+      "start": 12644,
+      "end": 12670,
+      "tokens": 1638,
+      "reason": "verification-horoscopes",
+      "question": "Verify source support or recover a bounded view after earlier output truncation: horoscopes",
+      "resolution": "Checked the displayed span against the retained method; see coverage-audit.md for outcome and limitations."
+    },
+    {
+      "source": "beggs",
+      "start": 12300,
+      "end": 12345,
+      "tokens": 605,
+      "reason": "verification-network-metrics",
+      "question": "Verify source support or recover a bounded view after earlier output truncation: network-metrics",
+      "resolution": "Checked the displayed span against the retained method; see coverage-audit.md for outcome and limitations."
+    },
+    {
+      "source": "beggs",
+      "start": 311,
+      "end": 316,
+      "tokens": 242,
+      "reason": "structure-tail"
+    },
+    {
+      "source": "beggs",
+      "start": 17108,
+      "end": 17146,
+      "tokens": 555,
+      "reason": "audit-significance-threshold"
+    },
+    {
+      "source": "beggs",
+      "start": 17612,
+      "end": 17660,
+      "tokens": 710,
+      "reason": "verification-p-values",
+      "question": "Verify source support or recover a bounded view after earlier output truncation: p-values",
+      "resolution": "Checked the displayed span against the retained method; see coverage-audit.md for outcome and limitations."
+    },
+    {
+      "source": "carling",
+      "start": 2964,
+      "end": 3006,
+      "tokens": 570,
+      "reason": "verification-consecutive-forward",
+      "question": "Verify source support or recover a bounded view after earlier output truncation: consecutive-forward",
+      "resolution": "Checked the displayed span against the retained method; see coverage-audit.md for outcome and limitations."
+    },
+    {
+      "source": "graham",
+      "start": 1069,
+      "end": 1097,
+      "tokens": 2201,
+      "reason": "verification-usage-model-limits",
+      "question": "Verify source support or recover a bounded view after earlier output truncation: usage-model-limits",
+      "resolution": "Checked the displayed span against the retained method; see coverage-audit.md for outcome and limitations."
+    },
+    {
+      "source": "graham",
+      "start": 185,
+      "end": 201,
+      "tokens": 1162,
+      "reason": "verification-audit-small-minutes",
+      "question": "Verify source support or recover a bounded view after earlier output truncation: audit-small-minutes",
+      "resolution": "Checked the displayed span against the retained method; see coverage-audit.md for outcome and limitations."
+    },
+    {
+      "source": "graham",
+      "start": 1837,
+      "end": 1863,
+      "tokens": 1976,
+      "reason": "verification-audit-frontier",
+      "question": "Verify source support or recover a bounded view after earlier output truncation: audit-frontier",
+      "resolution": "Checked the displayed span against the retained method; see coverage-audit.md for outcome and limitations."
+    },
+    {
+      "source": "maguire",
+      "start": 3326,
+      "end": 3367,
+      "tokens": 1908,
+      "reason": "verification-audit-group-perimeter",
+      "question": "Verify source support or recover a bounded view after earlier output truncation: audit-group-perimeter",
+      "resolution": "Checked the displayed span against the retained method; see coverage-audit.md for outcome and limitations."
+    },
+    {
+      "source": "maguire",
+      "start": 3273,
+      "end": 3280,
+      "tokens": 888,
+      "reason": "verification-audit-late-accounts",
+      "question": "Verify source support or recover a bounded view after earlier output truncation: audit-late-accounts",
+      "resolution": "Checked the displayed span against the retained method; see coverage-audit.md for outcome and limitations."
+    }
+  ],
+  "partial_views_excluded_from_coverage": [
+    {
+      "source": "carling",
+      "start": 46,
+      "end": 146,
+      "tokens": 569,
+      "reason": "structure",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "beggs",
+      "start": 181,
+      "end": 309,
+      "tokens": 4662,
+      "reason": "structure",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "mcelreath",
+      "start": 195,
+      "end": 365,
+      "tokens": 2950,
+      "reason": "structure",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "carling",
+      "start": 750,
+      "end": 831,
+      "tokens": 3194,
+      "reason": "initial",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "carling",
+      "start": 898,
+      "end": 981,
+      "tokens": 1489,
+      "reason": "initial",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "carling",
+      "start": 1557,
+      "end": 1606,
+      "tokens": 1398,
+      "reason": "initial",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "carling",
+      "start": 1968,
+      "end": 2030,
+      "tokens": 4029,
+      "reason": "initial",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "carling",
+      "start": 2058,
+      "end": 2126,
+      "tokens": 2803,
+      "reason": "initial",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "carling",
+      "start": 3236,
+      "end": 3270,
+      "tokens": 1043,
+      "reason": "initial",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "graham",
+      "start": 1015,
+      "end": 1099,
+      "tokens": 5788,
+      "reason": "initial",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "graham",
+      "start": 1139,
+      "end": 1197,
+      "tokens": 4390,
+      "reason": "initial",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "graham",
+      "start": 1553,
+      "end": 1633,
+      "tokens": 6162,
+      "reason": "initial",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "graham",
+      "start": 1837,
+      "end": 1863,
+      "tokens": 1976,
+      "reason": "audit-metric-selection",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "graham",
+      "start": 185,
+      "end": 201,
+      "tokens": 1162,
+      "reason": "audit-small-minutes",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "graham",
+      "start": 1253,
+      "end": 1295,
+      "tokens": 3304,
+      "reason": "initial",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "graham",
+      "start": 1331,
+      "end": 1347,
+      "tokens": 1181,
+      "reason": "initial",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "graham",
+      "start": 845,
+      "end": 861,
+      "tokens": 1317,
+      "reason": "initial",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "mcelreath",
+      "start": 915,
+      "end": 958,
+      "tokens": 2967,
+      "reason": "initial",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "mcelreath",
+      "start": 1412,
+      "end": 1450,
+      "tokens": 529,
+      "reason": "initial",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "mcelreath",
+      "start": 3891,
+      "end": 3925,
+      "tokens": 1377,
+      "reason": "initial",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "mcelreath",
+      "start": 5198,
+      "end": 5241,
+      "tokens": 1456,
+      "reason": "initial",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "maguire",
+      "start": 2586,
+      "end": 2608,
+      "tokens": 435,
+      "reason": "initial",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "maguire",
+      "start": 2708,
+      "end": 2724,
+      "tokens": 650,
+      "reason": "initial",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "maguire",
+      "start": 2974,
+      "end": 2988,
+      "tokens": 550,
+      "reason": "initial",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "maguire",
+      "start": 3037,
+      "end": 3095,
+      "tokens": 2503,
+      "reason": "initial",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "maguire",
+      "start": 3273,
+      "end": 3305,
+      "tokens": 2140,
+      "reason": "audit-late-accounts",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "maguire",
+      "start": 3326,
+      "end": 3367,
+      "tokens": 1908,
+      "reason": "audit-entities-notes",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    },
+    {
+      "source": "mcelreath",
+      "start": 4140,
+      "end": 4164,
+      "tokens": 1015,
+      "reason": "audit-post-treatment-clarification",
+      "visibility": "Tool response was truncated somewhere in the batch; this whole span is conservatively excluded from confirmed coverage. tokens are offered cleaned tokens, not confirmed read tokens."
+    }
+  ],
+  "notes": [
+    "Confirmed ranges count only helper views whose complete batch was returned; partial views remain transparent separately.",
+    "Initial front-matter excerpts and heading/search probes preceded or supplemented helper reads and are not quantified as full line coverage.",
+    "Tokens are deterministic cleaned-text estimates, not provider billing. Total offered expenditure includes partial views; no claim of exhaustive source coverage."
+  ],
+  "expenditure_including_partial_views": {
+    "carling": 18223,
+    "beggs": 15888,
+    "graham": 30619,
+    "mcelreath": 23673,
+    "maguire": 17912
+  }
+}

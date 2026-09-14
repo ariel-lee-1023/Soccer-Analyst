@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "development_tasks": 5,
+  "final_tasks": 4,
+  "kind_coverage": [
+    "apply",
+    "inapplicable",
+    "disagreement",
+    "unsupported"
+  ],
+  "note": "Task schema validation only; no model answers or grades."
+}

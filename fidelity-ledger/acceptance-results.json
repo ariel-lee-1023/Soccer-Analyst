@@ -1,0 +1,13 @@
+{
+  "status": "unrun",
+  "phase": "development",
+  "suite_hash": "sha256:3e00d200e2785c3544ea7d9c974514a34dd0e5c4cc1e4279ad4460c3b0f59faa",
+  "content_hash": "sha256:633a9e39d3a8713c486e3cd9a671448f5c500c29d30a39b9221264e43c19983c",
+  "model": null,
+  "settings": null,
+  "baseline_prompt": "You are a football analyst. Answer the user clearly and accurately.",
+  "runs": {},
+  "reason": "No user-selected EVALUATION_ENDPOINT or EVALUATION_MODEL configured, and no fresh-context evaluation tool available. No external provider was selected or sent the source-derived content.",
+  "prior_regression_results": "No pre-existing suite/results found. Original five reference files and the existing uncommitted AGENTS.md are preserved by hashes.",
+  "claims": "Structural, arithmetic and editorial checks only. No measured baseline/core/full improvement or independent final acceptance."
+}

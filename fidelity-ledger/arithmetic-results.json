@@ -1,0 +1,106 @@
+{
+  "status": "passed",
+  "method": "Python standard-library arithmetic; no R execution, fitting or behavioral model run",
+  "checks": {
+    "Graham 25 completed passes net expected goals": {
+      "actual": 0.025000000000000022,
+      "expected": 0.025,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "Graham 24 completed passes net expected goals": {
+      "actual": -0.028000000000000025,
+      "expected": -0.028,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "Graham break-even completion rate": {
+      "actual": 0.24528301886792453,
+      "expected": 0.24528301886792453,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "Graham illustrative independent eight-factor success": {
+      "actual": 0.5132188731375618,
+      "expected": 0.5132188731375618,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "Maguire annual Neymar amortisation EUR million": {
+      "actual": 44.4,
+      "expected": 44.4,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "Maguire carrying amount after two full years EUR million": {
+      "actual": 133.2,
+      "expected": 133.2,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "Maguire hypothetical extension amortisation EUR million": {
+      "actual": 17.76,
+      "expected": 17.76,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "McElreath conjugate posterior mean": {
+      "actual": 0.6363636363636364,
+      "expected": 0.6363636363636364,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "McElreath predictive mean for ten trials": {
+      "actual": 6.363636363636363,
+      "expected": 6.363636363636363,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "Beggs illustrative home probability rounded": {
+      "actual": 0.488,
+      "expected": 0.488,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "Beggs illustrative draw probability rounded": {
+      "actual": 0.26,
+      "expected": 0.26,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "Beggs illustrative away probability rounded": {
+      "actual": 0.252,
+      "expected": 0.252,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "Poisson probability mass including tail": {
+      "actual": 1.0,
+      "expected": 1.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "Poisson equal-rate symmetry": {
+      "actual": 0.34574583872316467,
+      "expected": 0.34574583872316467,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "Poisson zero-rate draw": {
+      "actual": 1.0,
+      "expected": 1.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "score_grid_tail_disclosed": {
+      "passed": true,
+      "actual_omitted_mass": 0.9991476830629188
+    }
+  },
+  "poisson_illustration": {
+    "home": 0.4879456833162037,
+    "draw": 0.25984737425775695,
+    "away": 0.2522069424260392,
+    "omitted_tail": 2.220446049250313e-16
+  }
+}
