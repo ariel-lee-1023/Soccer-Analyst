@@ -39,6 +39,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- Corrected the Cox Premier League reference's conflation of Arsenal–Barcelona in 2010 and 2011, cited both UEFA reports, and revised the example and linked pressing lessons to separate verified events from unsupported tactical causes.
 - Changelog comparison links pointed at a placeholder repository path.
 
 ## [1.0.0] - 2026-07-23
