@@ -1,0 +1,392 @@
+{
+  "attempts": [
+    {
+      "source": "nesti",
+      "start": 640,
+      "end": 728,
+      "reason": "targeted source inspection",
+      "inspection_id": 0,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 4888
+    },
+    {
+      "source": "nesti",
+      "start": 766,
+      "end": 820,
+      "reason": "targeted source inspection",
+      "inspection_id": 1,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 2393
+    },
+    {
+      "source": "nesti",
+      "start": 884,
+      "end": 910,
+      "reason": "targeted source inspection",
+      "inspection_id": 2,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 1210
+    },
+    {
+      "source": "nesti",
+      "start": 1238,
+      "end": 1322,
+      "reason": "targeted source inspection",
+      "inspection_id": 3,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 4348
+    },
+    {
+      "source": "nesti",
+      "start": 1644,
+      "end": 1660,
+      "reason": "targeted source inspection",
+      "inspection_id": 4,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 890
+    },
+    {
+      "source": "nesti",
+      "start": 1722,
+      "end": 1842,
+      "reason": "targeted source inspection",
+      "inspection_id": 5,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 6399
+    },
+    {
+      "source": "ancelotti",
+      "start": 297,
+      "end": 361,
+      "reason": "targeted source inspection",
+      "inspection_id": 6,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 6755
+    },
+    {
+      "source": "ancelotti",
+      "start": 549,
+      "end": 609,
+      "reason": "targeted source inspection",
+      "inspection_id": 7,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 6312
+    },
+    {
+      "source": "ancelotti",
+      "start": 639,
+      "end": 701,
+      "reason": "targeted source inspection",
+      "inspection_id": 8,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 6344
+    },
+    {
+      "source": "ancelotti",
+      "start": 297,
+      "end": 329,
+      "reason": "targeted source inspection",
+      "inspection_id": 13,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 3986
+    },
+    {
+      "source": "ancelotti",
+      "start": 549,
+      "end": 599,
+      "reason": "targeted source inspection",
+      "inspection_id": 14,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 6176
+    },
+    {
+      "source": "reboot",
+      "start": 237,
+      "end": 245,
+      "reason": "targeted source inspection",
+      "inspection_id": 18,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 1486
+    },
+    {
+      "source": "reboot",
+      "start": 501,
+      "end": 517,
+      "reason": "targeted source inspection",
+      "inspection_id": 19,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 2647
+    },
+    {
+      "source": "reboot",
+      "start": 609,
+      "end": 625,
+      "reason": "targeted source inspection",
+      "inspection_id": 20,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 1760
+    },
+    {
+      "source": "reboot",
+      "start": 1092,
+      "end": 1116,
+      "reason": "targeted source inspection",
+      "inspection_id": 21,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 2931
+    },
+    {
+      "source": "beswick",
+      "start": 376,
+      "end": 426,
+      "reason": "targeted source inspection",
+      "inspection_id": 29,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 633
+    },
+    {
+      "source": "beswick",
+      "start": 2750,
+      "end": 2785,
+      "reason": "targeted source inspection",
+      "inspection_id": 30,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 379
+    },
+    {
+      "source": "beswick",
+      "start": 3605,
+      "end": 3638,
+      "reason": "targeted source inspection",
+      "inspection_id": 31,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 524
+    },
+    {
+      "source": "beswick",
+      "start": 5258,
+      "end": 5290,
+      "reason": "targeted source inspection",
+      "inspection_id": 32,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 508
+    },
+    {
+      "source": "beswick",
+      "start": 6056,
+      "end": 6068,
+      "reason": "targeted source inspection",
+      "inspection_id": 33,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 211
+    },
+    {
+      "source": "beswick",
+      "start": 6156,
+      "end": 6168,
+      "reason": "targeted source inspection",
+      "inspection_id": 34,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 188
+    },
+    {
+      "source": "beswick",
+      "start": 6215,
+      "end": 6248,
+      "reason": "targeted source inspection",
+      "inspection_id": 35,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 523
+    },
+    {
+      "source": "beswick",
+      "start": 6292,
+      "end": 6298,
+      "reason": "targeted source inspection",
+      "inspection_id": 36,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 69
+    },
+    {
+      "source": "beswick",
+      "start": 6384,
+      "end": 6433,
+      "reason": "targeted source inspection",
+      "inspection_id": 37,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 630
+    },
+    {
+      "source": "beswick",
+      "start": 8700,
+      "end": 8790,
+      "reason": "targeted source inspection",
+      "inspection_id": 38,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 937
+    },
+    {
+      "source": "obrien",
+      "start": 447,
+      "end": 471,
+      "reason": "targeted source inspection",
+      "inspection_id": 39,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 1540
+    },
+    {
+      "source": "obrien",
+      "start": 549,
+      "end": 559,
+      "reason": "targeted source inspection",
+      "inspection_id": 40,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 428
+    },
+    {
+      "source": "obrien",
+      "start": 623,
+      "end": 699,
+      "reason": "targeted source inspection",
+      "inspection_id": 41,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 4057
+    },
+    {
+      "source": "obrien",
+      "start": 1999,
+      "end": 2021,
+      "reason": "targeted source inspection",
+      "inspection_id": 42,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 1406
+    },
+    {
+      "source": "obrien",
+      "start": 2130,
+      "end": 2195,
+      "reason": "targeted source inspection",
+      "inspection_id": 43,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 2121
+    },
+    {
+      "source": "ancelotti",
+      "start": 245,
+      "end": 253,
+      "reason": "targeted source inspection",
+      "inspection_id": 50,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 448
+    },
+    {
+      "source": "ancelotti",
+      "start": 401,
+      "end": 411,
+      "reason": "targeted source inspection",
+      "inspection_id": 51,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 1799
+    },
+    {
+      "source": "ancelotti",
+      "start": 519,
+      "end": 527,
+      "reason": "targeted source inspection",
+      "inspection_id": 52,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 500
+    },
+    {
+      "source": "ancelotti",
+      "start": 1017,
+      "end": 1021,
+      "reason": "targeted source inspection",
+      "inspection_id": 53,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 73
+    },
+    {
+      "source": "ancelotti",
+      "start": 555,
+      "end": 563,
+      "reason": "targeted source inspection",
+      "inspection_id": 54,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 1542
+    },
+    {
+      "source": "beswick",
+      "start": 1773,
+      "end": 1807,
+      "reason": "targeted source inspection",
+      "inspection_id": 63,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 538
+    },
+    {
+      "source": "beswick",
+      "start": 4721,
+      "end": 4755,
+      "reason": "targeted source inspection",
+      "inspection_id": 64,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 548
+    },
+    {
+      "source": "beswick",
+      "start": 7043,
+      "end": 7080,
+      "reason": "targeted source inspection",
+      "inspection_id": 65,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 489
+    },
+    {
+      "source": "beswick",
+      "start": 7789,
+      "end": 7826,
+      "reason": "targeted source inspection",
+      "inspection_id": 66,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 579
+    },
+    {
+      "source": "beswick",
+      "start": 9030,
+      "end": 9065,
+      "reason": "targeted source inspection",
+      "inspection_id": 67,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 383
+    },
+    {
+      "source": "beswick",
+      "start": 6056,
+      "end": 6068,
+      "reason": "targeted source inspection",
+      "inspection_id": 68,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 211
+    },
+    {
+      "source": "beswick",
+      "start": 6156,
+      "end": 6168,
+      "reason": "targeted source inspection",
+      "inspection_id": 69,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 188
+    },
+    {
+      "source": "beswick",
+      "start": 6241,
+      "end": 6257,
+      "reason": "targeted source inspection",
+      "inspection_id": 70,
+      "status": "requested span in truncated tool result; contains visible material but full coverage/token count not credited",
+      "requested_tokens_upper_bound": 268
+    }
+  ],
+  "note": "Requested spans and upper-bound text estimates, not confirmed complete reads. Repeated reads were often needed because long converted Markdown paragraphs exceeded display budgets. No full-corpus load occurred."
+}

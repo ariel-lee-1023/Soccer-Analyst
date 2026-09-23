@@ -9,3 +9,14 @@
 
 # Packaged skill uploads
 *.zip
+
+# Raw sources and transient extraction/build files
+*.pdf
+*.epub
+*.mobi
+*.azw
+*.azw3
+full_text.txt
+book_skill_work/
+__pycache__/
+*.pyc

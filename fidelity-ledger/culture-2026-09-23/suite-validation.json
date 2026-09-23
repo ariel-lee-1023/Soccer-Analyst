@@ -1,0 +1,9 @@
+{
+  "status": "schema valid",
+  "partitions": {
+    "development": 9,
+    "final": 8
+  },
+  "prior_tasks_preserved": true,
+  "behavioural_result": "unrun"
+}

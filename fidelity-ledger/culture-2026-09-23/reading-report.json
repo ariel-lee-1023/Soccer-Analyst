@@ -1,0 +1,50 @@
+{
+  "nesti": {
+    "unique_lines": 251,
+    "repeated_lines": 0,
+    "input_tokens": 12624,
+    "unresolved": [],
+    "coverage_fraction": 0.10861099091302466,
+    "budget_alert": false
+  },
+  "ancelotti": {
+    "unique_lines": 11,
+    "repeated_lines": 0,
+    "input_tokens": 1065,
+    "unresolved": [],
+    "coverage_fraction": 0.009098428453267164,
+    "budget_alert": false
+  },
+  "obrien": {
+    "unique_lines": 164,
+    "repeated_lines": 0,
+    "input_tokens": 7336,
+    "unresolved": [],
+    "coverage_fraction": 0.04859259259259259,
+    "budget_alert": false
+  },
+  "reboot": {
+    "unique_lines": 23,
+    "repeated_lines": 0,
+    "input_tokens": 3347,
+    "unresolved": [],
+    "coverage_fraction": 0.017164179104477612,
+    "budget_alert": false
+  },
+  "klopp": {
+    "unique_lines": 392,
+    "repeated_lines": 0,
+    "input_tokens": 5346,
+    "unresolved": [],
+    "coverage_fraction": 0.03148088660456152,
+    "budget_alert": false
+  },
+  "beswick": {
+    "unique_lines": 438,
+    "repeated_lines": 0,
+    "input_tokens": 5942,
+    "unresolved": [],
+    "coverage_fraction": 0.042290238486048085,
+    "budget_alert": false
+  }
+}

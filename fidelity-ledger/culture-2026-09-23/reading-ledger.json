@@ -1,0 +1,338 @@
+{
+  "sources": {
+    "nesti": {
+      "lines": 2311,
+      "output_budget": 7543
+    },
+    "ancelotti": {
+      "lines": 1209,
+      "output_budget": 8043
+    },
+    "obrien": {
+      "lines": 3375,
+      "output_budget": 8708
+    },
+    "reboot": {
+      "lines": 1340,
+      "output_budget": 9838
+    },
+    "klopp": {
+      "lines": 12452,
+      "output_budget": 9300
+    },
+    "beswick": {
+      "lines": 10357,
+      "output_budget": 9109
+    }
+  },
+  "reads": [
+    {
+      "source": "nesti",
+      "start": 766,
+      "end": 792,
+      "tokens": 1092,
+      "reason": "verification",
+      "inspection_id": 9,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "nesti",
+      "start": 1280,
+      "end": 1322,
+      "tokens": 2033,
+      "reason": "verification",
+      "inspection_id": 10,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "nesti",
+      "start": 1644,
+      "end": 1660,
+      "tokens": 890,
+      "reason": "verification",
+      "inspection_id": 11,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "nesti",
+      "start": 1776,
+      "end": 1842,
+      "tokens": 3343,
+      "reason": "verification",
+      "inspection_id": 12,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "beswick",
+      "start": 2985,
+      "end": 3040,
+      "tokens": 909,
+      "reason": "verification",
+      "inspection_id": 15,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "beswick",
+      "start": 3140,
+      "end": 3295,
+      "tokens": 2115,
+      "reason": "verification",
+      "inspection_id": 16,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "beswick",
+      "start": 4316,
+      "end": 4480,
+      "tokens": 2279,
+      "reason": "verification",
+      "inspection_id": 17,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "klopp",
+      "start": 2730,
+      "end": 2830,
+      "tokens": 1414,
+      "reason": "verification",
+      "inspection_id": 22,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "klopp",
+      "start": 2870,
+      "end": 2940,
+      "tokens": 1039,
+      "reason": "verification",
+      "inspection_id": 23,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "klopp",
+      "start": 6810,
+      "end": 6860,
+      "tokens": 640,
+      "reason": "verification",
+      "inspection_id": 24,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "klopp",
+      "start": 9000,
+      "end": 9065,
+      "tokens": 873,
+      "reason": "verification",
+      "inspection_id": 25,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "klopp",
+      "start": 9100,
+      "end": 9128,
+      "tokens": 414,
+      "reason": "verification",
+      "inspection_id": 26,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "klopp",
+      "start": 9770,
+      "end": 9825,
+      "tokens": 691,
+      "reason": "verification",
+      "inspection_id": 27,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "klopp",
+      "start": 6635,
+      "end": 6652,
+      "tokens": 275,
+      "reason": "verification",
+      "inspection_id": 28,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "obrien",
+      "start": 647,
+      "end": 693,
+      "tokens": 2103,
+      "reason": "verification",
+      "inspection_id": 44,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "obrien",
+      "start": 2888,
+      "end": 2916,
+      "tokens": 1252,
+      "reason": "verification",
+      "inspection_id": 45,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "nesti",
+      "start": 476,
+      "end": 488,
+      "tokens": 931,
+      "reason": "verification",
+      "inspection_id": 46,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "nesti",
+      "start": 926,
+      "end": 942,
+      "tokens": 861,
+      "reason": "verification",
+      "inspection_id": 47,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "nesti",
+      "start": 1508,
+      "end": 1528,
+      "tokens": 1356,
+      "reason": "verification",
+      "inspection_id": 48,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "nesti",
+      "start": 1480,
+      "end": 1496,
+      "tokens": 804,
+      "reason": "verification",
+      "inspection_id": 49,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "obrien",
+      "start": 1571,
+      "end": 1595,
+      "tokens": 1203,
+      "reason": "verification",
+      "inspection_id": 55,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "obrien",
+      "start": 2670,
+      "end": 2704,
+      "tokens": 1664,
+      "reason": "verification",
+      "inspection_id": 56,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "obrien",
+      "start": 2533,
+      "end": 2560,
+      "tokens": 1114,
+      "reason": "verification",
+      "inspection_id": 57,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "reboot",
+      "start": 611,
+      "end": 617,
+      "tokens": 406,
+      "reason": "verification",
+      "inspection_id": 58,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "reboot",
+      "start": 763,
+      "end": 767,
+      "tokens": 778,
+      "reason": "verification",
+      "inspection_id": 59,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "reboot",
+      "start": 953,
+      "end": 961,
+      "tokens": 1465,
+      "reason": "verification",
+      "inspection_id": 60,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "reboot",
+      "start": 976,
+      "end": 976,
+      "tokens": 267,
+      "reason": "verification",
+      "inspection_id": 61,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "reboot",
+      "start": 1298,
+      "end": 1298,
+      "tokens": 431,
+      "reason": "verification",
+      "inspection_id": 62,
+      "question": "Verify task-relevant mechanisms and qualifications from the selected passage; some ranges revisit a previously truncated view.",
+      "resolution": "Complete passage visible; relevant claims retained or explicitly bounded in coverage audit."
+    },
+    {
+      "source": "ancelotti",
+      "start": 341,
+      "end": 351,
+      "tokens": 1065,
+      "reason": "verification",
+      "question": "Check cultural bridge / positivity / confidentiality claim and its source boundary.",
+      "resolution": "Confirmed in clean_slice output; no boilerplate reduction for these spans."
+    },
+    {
+      "source": "beswick",
+      "start": 1010,
+      "end": 1070,
+      "tokens": 639,
+      "reason": "verification",
+      "question": "Check cultural bridge / positivity / confidentiality claim and its source boundary.",
+      "resolution": "Confirmed in clean_slice output; no boilerplate reduction for these spans."
+    },
+    {
+      "source": "nesti",
+      "start": 382,
+      "end": 410,
+      "tokens": 1314,
+      "reason": "verification",
+      "question": "Check cultural bridge / positivity / confidentiality claim and its source boundary.",
+      "resolution": "Confirmed in clean_slice output; no boilerplate reduction for these spans."
+    }
+  ],
+  "note": "Conservative confirmed-complete views only. Earlier probes and partial/truncated results are excluded from coverage; tokens in numbered views include locator overhead and retained page markers. No exact total model-input claim. Clean-slice verification is separately marked. See partial-reading-attempts.json."
+}

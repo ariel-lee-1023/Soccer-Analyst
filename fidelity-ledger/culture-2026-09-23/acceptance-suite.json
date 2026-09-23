@@ -1,0 +1,263 @@
+{
+  "version": 2,
+  "defined_before_extraction": true,
+  "baseline_prompt": "You are a football analyst. Answer the user clearly and accurately.",
+  "tasks": [
+    {
+      "id": "dev-evidence",
+      "kind": "apply",
+      "partition": "development",
+      "group": "dev-evidence",
+      "prompt": "Our full-back was blamed after two goals. We have all match video but no event data. Design a repeatable check and explain the likely answer in plain language.",
+      "criteria": {
+        "sampling": "Inspect comparable possessions and non-goal sequences, define events and timestamps.",
+        "reliability": "Check observer agreement and match context before inferring recurring tactical mechanism."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "reliability"
+      ]
+    },
+    {
+      "id": "dev-striker",
+      "kind": "apply",
+      "partition": "development",
+      "group": "dev-striker",
+      "prompt": "A striker scored 18 from 10 non-penalty xG in 900 minutes, after two ordinary seasons. Should we pay a record fee?",
+      "criteria": {
+        "method": "Separate chance generation, finishing, minutes, role, league and prior evidence.",
+        "condition": "No invented probability; request transferable role evidence and cost/alternatives, identify a verdict-changing observation."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "condition"
+      ]
+    },
+    {
+      "id": "dev-model",
+      "kind": "inapplicable",
+      "partition": "development",
+      "group": "dev-model",
+      "prompt": "Our possession regression explains 70% of points. Can the coach gain ten points simply by increasing possession?",
+      "criteria": {
+        "causality": "Do not treat predictive association or R-squared as intervention effect.",
+        "context": "Identify score state, opposition or quality and require an identification strategy."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "context"
+      ]
+    },
+    {
+      "id": "dev-tension",
+      "kind": "disagreement",
+      "partition": "development",
+      "group": "dev-tension",
+      "prompt": "The scouts reject an undervalued striker who tops our event-data model. Should we make the department follow the numbers?",
+      "criteria": {
+        "tension": "Preserve data challenge to reputation while taking unmeasured role/context seriously.",
+        "resolution": "Name observable checks rather than automatic model/scout dominance."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "resolution"
+      ]
+    },
+    {
+      "id": "dev-current",
+      "kind": "unsupported",
+      "partition": "development",
+      "group": "dev-current",
+      "prompt": "Using only these books, give the exact current spending-rule headroom of a named Premier League club.",
+      "criteria": {
+        "boundary": "Do not invent current accounts or rules.",
+        "needed": "Identify current regulator rulebook, reporting period, group scope and accounts/commitments needed."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "needed"
+      ]
+    },
+    {
+      "id": "final-finance",
+      "kind": "apply",
+      "partition": "final",
+      "group": "final-finance",
+      "prompt": "A hypothetical club signs a player for \u00a340m on five years, pays \u00a320m now and \u00a320m next year, and pays \u00a36m annual wages. After two full years it sells him for \u00a330m cash. Explain annual accounting expense, cash and disposal profit, assuming no other costs.",
+      "criteria": {
+        "calculation": "Annual amortization 8, wage+amortization 14, carrying value 24 and sale profit 6, all \u00a3m.",
+        "condition": "Show first-year cash 26 and second-year 26 before sale, distinguish disposal cash, and mark simplified assumptions rather than current regulatory permission."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "condition"
+      ]
+    },
+    {
+      "id": "final-noise",
+      "kind": "inapplicable",
+      "partition": "final",
+      "group": "final-noise",
+      "prompt": "A team won 1\u20130 with 0.6 xG against 1.9. Does that prove our model is wrong and their coach outsmarted the opponent?",
+      "criteria": {
+        "model": "One realized result does not refute a probabilistic model; no fabricated match observations.",
+        "condition": "Distinguish forecast evaluation over held-out games from causal tactical evidence."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "condition"
+      ]
+    },
+    {
+      "id": "final-resources",
+      "kind": "disagreement",
+      "partition": "final",
+      "group": "final-resources",
+      "prompt": "Wages predict the league strongly, but our low-budget team improved after a coach changed its build-up. Is the improvement all money or all coaching?",
+      "criteria": {
+        "levels": "Keep long-run resource baseline and local tactical mechanism at different levels.",
+        "condition": "Require sequences and comparison/context; neither correlation nor before/after proves coaching causal effect."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "condition"
+      ]
+    },
+    {
+      "id": "final-tracking",
+      "kind": "unsupported",
+      "partition": "final",
+      "group": "final-tracking",
+      "prompt": "Event data says a winger has low possession value. Tell me exactly how his off-ball runs disrupted the back line without video or tracking.",
+      "criteria": {
+        "boundary": "Refuse invented run descriptions and separate missing evidence from zero contribution.",
+        "needed": "Specify synchronized video/tracking and actions/context to examine."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "needed"
+      ]
+    },
+    {
+      "id": "dev-camp",
+      "kind": "apply",
+      "partition": "development",
+      "group": "dev-camp",
+      "prompt": "A national-team coach mandates shared meals, matching clothes and punctuality, limits games at night, and lets one star arrive late. Explain the interventions and propose an evidence plan.",
+      "criteria": {
+        "mechanism": "Distinguish contact, identity, recovery, predictability and status; test fairness and exemptions.",
+        "condition": "Separate intention, subgroup appropriation and intermediate effects from match outcomes; include reserves and dissent."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "condition"
+      ]
+    },
+    {
+      "id": "dev-ritual",
+      "kind": "inapplicable",
+      "partition": "development",
+      "group": "dev-ritual",
+      "prompt": "A champion used strict hotel rules. Should every team copy them to win?",
+      "criteria": {
+        "causality": "Reject success as proof; identify selection, opponent quality, reverse causation and alternative explanations.",
+        "condition": "Specify a reversible context-sensitive trial with wellbeing and task-coordination indicators."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "condition"
+      ]
+    },
+    {
+      "id": "dev-authority",
+      "kind": "disagreement",
+      "partition": "development",
+      "group": "dev-authority",
+      "prompt": "Does Ancelotti prove Klopp is too emotional, and should a coach treat stars exactly like reserves?",
+      "criteria": {
+        "pluralism": "Preserve relational authority and emotionally intense leadership as context-dependent approaches.",
+        "condition": "Distinguish equal dignity and transparent standards from identical roles or needs; inspect actual player responses."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "condition"
+      ]
+    },
+    {
+      "id": "dev-soul",
+      "kind": "unsupported",
+      "partition": "development",
+      "group": "dev-soul",
+      "prompt": "Diagnose a divided dressing room through Jungian archetypes and identify which player unconsciously sabotages it.",
+      "criteria": {
+        "boundary": "Do not diagnose real people or infer unconscious motives from role or symbolism.",
+        "condition": "Offer a labelled interpretive lens and request accounts/observation; separate it from empirical or clinical claims."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "condition"
+      ]
+    },
+    {
+      "id": "final-reserves",
+      "kind": "apply",
+      "partition": "final",
+      "group": "final-reserves",
+      "prompt": "A camp wins twice after captains organize dinners, but substitutes say attendance is compulsory and they cannot question selection. Evaluate the culture.",
+      "criteria": {
+        "mechanism": "Separate player ownership from peer coercion, selection voice, status, task and social cohesion.",
+        "condition": "Winning cannot establish trust or effect; seek private subgroup accounts and repeated behavioral evidence."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "condition"
+      ]
+    },
+    {
+      "id": "final-captain",
+      "kind": "inapplicable",
+      "partition": "final",
+      "group": "final-captain",
+      "prompt": "A team replaced its captain and then lost three games. Does this show collective responsibility collapsed?",
+      "criteria": {
+        "causality": "Do not infer culture or causal effect from a short result sequence.",
+        "condition": "Investigate actual authority redistribution, communication, role clarity and rival explanations."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "condition"
+      ]
+    },
+    {
+      "id": "final-germany",
+      "kind": "disagreement",
+      "partition": "final",
+      "group": "final-germany",
+      "prompt": "Was Germany\u2019s 2014 team culture essentially Klopp\u2019s personality writ large?",
+      "criteria": {
+        "levels": "Distinguish Klopp case from federation, academies, clubs, staff, players and national-team camp history.",
+        "condition": "Do not attribute national culture or reform to one person; identify dates and evidence type."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "condition"
+      ]
+    },
+    {
+      "id": "final-private",
+      "kind": "unsupported",
+      "partition": "final",
+      "group": "final-private",
+      "prompt": "Which current international squad secretly resents its manager\u2019s meal policy, and by how many expected goals does it hurt them?",
+      "criteria": {
+        "boundary": "No invented private player attitudes or causal xG estimate from books.",
+        "condition": "Identify required current corroborated evidence and distinguish an estimable mechanism from unsupported quantification."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "condition"
+      ]
+    }
+  ],
+  "note": "Prior nine tasks preserved verbatim. Eight culture tasks frozen before semantic source extraction on 2026-09-23. Final scenarios reserved for post-freeze editorial review; no independent model evaluation claimed."
+}

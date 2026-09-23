@@ -1,0 +1,213 @@
+{
+  "status": "passed",
+  "date": "2026-09-23",
+  "layout": "nested existing-repository architecture; published-repo root layout deliberately not applied",
+  "structural": {
+    "errors": [],
+    "warnings": [],
+    "facts": {
+      "skill_root": ".agents/skills/soccer-analyst",
+      "master_body_tokens": 4435,
+      "master_budget": 5200,
+      "master_capabilities": 8,
+      "references": {
+        "reference-ancelotti-quiet-leadership.md": {
+          "tokens": 2262,
+          "cap": 14000,
+          "depth": "study",
+          "type": "text",
+          "sections": 10,
+          "budget": 8043
+        },
+        "reference-beggs-soccer-analytics-r.md": {
+          "tokens": 3932,
+          "cap": 19500,
+          "depth": "study",
+          "type": "technical",
+          "sections": 11,
+          "budget": 10986
+        },
+        "reference-beswick-one-goal.md": {
+          "tokens": 2381,
+          "cap": 19500,
+          "depth": "study",
+          "type": "technical",
+          "sections": 15,
+          "budget": 12196
+        },
+        "reference-carling-match-analysis.md": {
+          "tokens": 3114,
+          "cap": 14000,
+          "depth": "study",
+          "type": "text",
+          "sections": 9,
+          "budget": 7800
+        },
+        "reference-cox-european-styles.md": {
+          "tokens": 10330,
+          "cap": 14000,
+          "depth": "study",
+          "type": "text",
+          "sections": 19,
+          "budget": 9838
+        },
+        "reference-cox-premier-league-eras.md": {
+          "tokens": 10720,
+          "cap": 14000,
+          "depth": "study",
+          "type": "text",
+          "sections": 25,
+          "budget": 10800
+        },
+        "reference-graham-football-decisions.md": {
+          "tokens": 3928,
+          "cap": 14000,
+          "depth": "study",
+          "type": "text",
+          "sections": 16,
+          "budget": 9300
+        },
+        "reference-honigstein-das-reboot.md": {
+          "tokens": 2250,
+          "cap": 14000,
+          "depth": "study",
+          "type": "text",
+          "sections": 19,
+          "budget": 9838
+        },
+        "reference-honigstein-klopp-leadership.md": {
+          "tokens": 1882,
+          "cap": 14000,
+          "depth": "study",
+          "type": "text",
+          "sections": 16,
+          "budget": 9300
+        },
+        "reference-kuper-szymanski-soccernomics.md": {
+          "tokens": 9482,
+          "cap": 14000,
+          "depth": "study",
+          "type": "text",
+          "sections": 21,
+          "budget": 10174
+        },
+        "reference-maguire-club-finance.md": {
+          "tokens": 3964,
+          "cap": 14000,
+          "depth": "study",
+          "type": "text",
+          "sections": 14,
+          "budget": 8912
+        },
+        "reference-mcelreath-statistical-rethinking.md": {
+          "tokens": 4149,
+          "cap": 19500,
+          "depth": "study",
+          "type": "technical",
+          "sections": 15,
+          "budget": 12196
+        },
+        "reference-nesti-football-psychology.md": {
+          "tokens": 2809,
+          "cap": 14000,
+          "depth": "study",
+          "type": "text",
+          "sections": 8,
+          "budget": 7543
+        },
+        "reference-obrien-analytical-football.md": {
+          "tokens": 2356,
+          "cap": 14000,
+          "depth": "study",
+          "type": "text",
+          "sections": 13,
+          "budget": 8708
+        },
+        "reference-szymanski-money-and-soccer.md": {
+          "tokens": 8194,
+          "cap": 14000,
+          "depth": "study",
+          "type": "text",
+          "sections": 11,
+          "budget": 8275
+        },
+        "reference-wilson-tactical-history.md": {
+          "tokens": 11136,
+          "cap": 14000,
+          "depth": "study",
+          "type": "text",
+          "sections": 22,
+          "budget": 10336
+        }
+      },
+      "books": 16
+    }
+  },
+  "scans": {
+    "core": [],
+    "references": [
+      {
+        "severity": "MEDIUM",
+        "rule": "urgency-pressure",
+        "why": "applies pressure to bypass review",
+        "file": "soccer-analyst/references/reference-cox-european-styles.md",
+        "line": 123,
+        "excerpt": "- **Guardiola's own wilderness years as evidence**: pushed out at 30 because \"players like me have become extinct… To p…"
+      },
+      {
+        "severity": "LOW",
+        "rule": "external-link",
+        "why": "links off to a host the distillation did not need",
+        "file": "soccer-analyst/references/reference-cox-premier-league-eras.md",
+        "line": 185,
+        "excerpt": "https://www.uefa.com/uefachampionsleague/news/0254-0d7ccacde944-14c3061601c2-1000--fabregas-completes-arsenal-comeback/"
+      },
+      {
+        "severity": "LOW",
+        "rule": "external-link",
+        "why": "links off to a host the distillation did not need",
+        "file": "soccer-analyst/references/reference-cox-premier-league-eras.md",
+        "line": 187,
+        "excerpt": "https://www.uefa.com/uefachampionsleague/news/01ee-0e7716147a60-27f2a9051649-1000--barcelona-rocked-by-stunning-arsenal…"
+      }
+    ]
+  },
+  "scan_review": "No new-reference or core findings. One unchanged MEDIUM football quotation is an account of football history, not an agent directive; two unchanged LOW URLs are UEFA references.",
+  "preservation": {
+    "AGENTS.md": true,
+    "soccer-analyst/references/reference-beggs-soccer-analytics-r.md": true,
+    "soccer-analyst/references/reference-carling-match-analysis.md": true,
+    "soccer-analyst/references/reference-cox-european-styles.md": true,
+    "soccer-analyst/references/reference-cox-premier-league-eras.md": true,
+    "soccer-analyst/references/reference-graham-football-decisions.md": true,
+    "soccer-analyst/references/reference-kuper-szymanski-soccernomics.md": true,
+    "soccer-analyst/references/reference-maguire-club-finance.md": true,
+    "soccer-analyst/references/reference-mcelreath-statistical-rethinking.md": true,
+    "soccer-analyst/references/reference-szymanski-money-and-soccer.md": true,
+    "soccer-analyst/references/reference-wilson-tactical-history.md": true
+  },
+  "relative_links": {
+    "checked": 44,
+    "broken": []
+  },
+  "discovery": {
+    "target": "../../soccer-analyst",
+    "resolves": true,
+    "tracked_mode_before_integration": "120000"
+  },
+  "source_counts": {
+    "existing": 10,
+    "added": 6,
+    "total": 16
+  },
+  "strict_text_cap_all_new_references": true,
+  "license": "Unchanged standard MIT, Copyright (c) 2026 Ariel Lee",
+  "arithmetic_checks": 16,
+  "suite_schema": {
+    "development": 9,
+    "final": 8
+  },
+  "behavioural_acceptance": "unrun",
+  "editorial": "See editorial-review.md; no independent model scores",
+  "initial_validation_issue": "Core initially measured 5128 tokens; redundant routing shortened to 4435 before acceptance."
+}

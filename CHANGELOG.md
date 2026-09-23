@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-09-23 — Leadership, team psychology and organizational culture
+
+- Added six source references, expanding the corpus from ten to sixteen books.
+- Extended the expert core to examine relationships, status, identity, authority, trust and collective work through concrete off-pitch arrangements.
+- Distinguished staff intention, player appropriation, proximal changes and claims about performance; preserved contrary cases and source disagreements.
+- Added national-team and institutional analysis, contextual Klopp cases, relational authority and explicitly bounded Jungian interpretation.
+- Preserved the existing installable folder, discovery alias, earlier references and prior audit records. Added a frozen seventeen-case suite; independent model evaluation remains unrun.
+- Rewrote the README introduction in the expanded expert's voice and stated the English corpus-language default in the core.
+
+
 All notable changes to this project are documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),

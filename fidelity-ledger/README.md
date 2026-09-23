@@ -14,3 +14,7 @@ The 2026-09-14 update adds five books to the existing five-source Soccer Analyst
 The master remains lean; all ten references load only when relevant. Reference sizes are deliberately below planning budgets, which are ceilings/targets rather than minimum lengths. This was a selective method expansion, not a full statistical textbook or a complete tactical coaching curriculum. The provisional density calibration from the metatool's narrative-book corpus is not treated as a validated quality score for this mixed technical corpus.
 
 For future edits, preserve one canonical runtime copy and place provenance/evaluation records here, outside references. A future independent evaluation must save real responses and retrieval traces for baseline, core and full configurations under the same model/settings. Do not turn the present author review or arithmetic checks into passing behavioral grades.
+
+## 2026-09-23 culture extension
+
+The current corpus has sixteen sources. The [culture update records](culture-2026-09-23/README.md) preserve this earlier record and add six source identities, a selective coverage audit, conservative reading records, a seventeen-task suite and actual validation results. Runtime structure remains unchanged. Earlier results above describe the 2026-09-14 state; they are not silently re-labelled as validation of the new candidate.

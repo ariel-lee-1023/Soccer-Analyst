@@ -1,0 +1,13 @@
+{
+  "status": "unrun",
+  "phase": "development",
+  "suite_hash": "sha256:8136bac219ea52eb47075e1ba4d8138f6ce1cd037b53b9d980a44a5d244df4e4",
+  "content_hash": "sha256:7d65e6c4283c88b8141f9686d367e8a75d1f3204e9fc2607605d10ae07a593f5",
+  "model": null,
+  "settings": null,
+  "baseline_prompt": "You are a football analyst. Answer the user clearly and accurately.",
+  "runs": {},
+  "reason": "No independent fresh-context baseline/core/full evaluation was run or configured. Author scenario review is separate and not blind.",
+  "prior_regression_results": "Prior nine tasks and original unrun record preserved. No measured before/after scores.",
+  "claims": "Structural, source-preservation, arithmetic and editorial checks only; no measured answer-quality improvement."
+}
